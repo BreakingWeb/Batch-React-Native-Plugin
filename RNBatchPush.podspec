@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
+  s.dependency "BatchFirebaseDispatcher"
   s.dependency 'Batch', '~> 1.19.0'
 end
