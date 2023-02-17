@@ -46,6 +46,7 @@ repositories {
 
 dependencies {
     implementation "com.facebook.react:react-native:+"
+    implementation "com.batch.android:firebase-dispatcher:3.0.1"
     api "com.batch.android:batch-sdk:${safeExtGet('batchSdkVersion', DEFAULT_BATCH_SDK_VERSION)}"
 }
 
