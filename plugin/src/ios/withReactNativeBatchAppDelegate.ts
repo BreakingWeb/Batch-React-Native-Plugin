@@ -4,7 +4,7 @@ import { Props } from '../withReactNativeBatch';
 const DID_FINISH_LAUNCHING_WITH_OPTIONS_DECLARATION =
   '- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions\n{';
 
-const IMPORT_BATCH = '\n\n#import <RNBatchPush/RNBatch.h>\n#import BatchFirebaseDispatcher\n';
+const IMPORT_BATCH = '\n\n#import <RNBatchPush/RNBatch.h>\n#import <BatchFirebaseDispatcher/BatchFirebaseDispatcher.h>\n';
 const REGISTER_BATCH = '\n  [BatchEventDispatcher addDispatcher:[BatchFirebaseDispatcher instance]];\n  [RNBatch start];\n  [BatchUNUserNotificationCenterDelegate registerAsDelegate];\n';
 
 export const modifyAppDelegate = (contents: string) => {

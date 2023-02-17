@@ -1,13 +1,13 @@
 {
-  "name": "@batch.com/react-native-plugin",
-  "version": "8.1.2",
-  "description": "Batch.com React-Native Plugin",
-  "homepage": "https://github.com/BatchLabs/Batch-React-Native-Plugin",
+  "name": "@breaking/batch-react-native-plugin",
+  "version": "8.1.3-3",
+  "description": "[Fork] Batch.com React-Native Plugin",
+  "homepage": "https://github.com/BreakingWeb/Batch-React-Native-Plugin",
   "main": "dist/Batch.js",
   "types": "dist/Batch.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BatchLabs/Batch-React-Native-Plugin.git"
+    "url": "git+ssh://git@github.com/BreakingWeb/Batch-React-Native-Plugin.git"
   },
   "license": "MIT",
   "keywords": [
@@ -50,5 +50,9 @@
     "ts-jest": "^27.0.7",
     "typedoc": "^0.22.7",
     "typescript": "^4.7.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/BreakingWeb/Batch-React-Native-Plugin/issues"
+  },
+  "author": ""
 }
