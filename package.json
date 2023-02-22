@@ -1,6 +1,6 @@
 {
   "name": "@breaking/batch-react-native-plugin",
-  "version": "8.1.3-4",
+  "version": "8.1.3-7",
   "description": "[Fork] Batch.com React-Native Plugin",
   "homepage": "https://github.com/BreakingWeb/Batch-React-Native-Plugin",
   "main": "dist/Batch.js",
